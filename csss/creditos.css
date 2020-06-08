@@ -1,0 +1,105 @@
+@charset 'UTF-8';
+/* <--- Formação geral do site --->*/
+	body{
+		background-color: rgb(255,255,255);
+	}
+
+	/*<--- Formatação da faixa de cima do cabeçalho--->*/
+
+	div#cabecalho{
+		height: 130px;
+		width: 1375px;
+		background-color: #565656;
+		margin: -35px -17px auto -17px;
+		box-shadow: 0px 0px 5px black;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+	/* <--- Formatação do Título do cabeçalho --->*/
+
+	div#titulos{
+		position: relative;
+		width: 350px;
+		top: 20px;
+		left: 100px;
+	}
+	div#titulos a{
+		text-decoration: none;
+		color: #565656;
+		transition: 0.5s;
+	}
+	div#titulos a:hover{
+		color: white;
+	}
+
+	hgroup#titulo_pagina h1{
+		font-size: 30px;
+	}
+
+	div#tema{
+		width: 1375px;
+		margin: 0px;
+	}
+	hgroup#titulo_tema h1{
+		text-align: center;
+		margin: 0px;
+		margin-top: -20px;
+		color: white;
+		font-size: 50px;
+	}
+	/* Formatação do menu */
+
+	nav#menu{
+		display: block:
+		
+	}
+	nav#menu ul{
+		list-style: none;
+		position: absolute;
+		top: 200px;
+		left: 5px;
+		font-size: 20px;
+		margin: 5px;
+		
+	}
+	nav#menu li{
+		margin: 5px;
+		padding: 5px;
+		transition: background-color 0.5s;
+	}
+	
+	div#elementos_lista{
+		position: relative;
+		left: 10px;
+	}
+
+	nav#menu li:hover{
+		background-color: #60606060;
+	}
+
+	nav#menu a{
+		text-decoration: none;
+		color: #565656;
+	}
+	div#corpo_texto{
+		background-color: white;
+		width: 900px;
+		height: auto;
+		margin: 50px auto 0px auto;
+		padding-bottom: 20px;
+		box-shadow: 0px 0px 10px #dddd;
+	}
+	div#corpo_texto p{
+		text-indent: 50px;
+		text-align: justify;
+		white-space: normal;
+		margin: 10px 80px 10px 80px;
+		font-size: 18px;
+		line-height: 28px;
+	}
+	div#corpo_texto h1{
+		color: #878787;
+		text-align: center;
+		padding-top: 20px;
+	}
