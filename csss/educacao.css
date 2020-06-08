@@ -7,10 +7,14 @@
 	/*<--- Formatação da faixa de cima do cabeçalho--->*/
 
 	div#cabecalho{
-		height: 150px;
+		position:absolute;
+		height: 130px;
 		width: 1375px;
 		background-color: #565656;
 		margin: -35px -17px auto -17px;
+		top: 0;
+		left: 0;
+		right: 0;
 		box-shadow: 0px 0px 5px black;
 	}
 	/* <--- Formatação do Título do cabeçalho --->*/
@@ -49,12 +53,13 @@
 
 	nav#menu{
 		display: block:
+
 		
 	}
 	nav#menu ul{
 		list-style: none;
 		position: absolute;
-		top: 200px;
+		top: 150px;
 		left: 5px;
 		font-size: 20px;
 		margin: 5px;
@@ -67,15 +72,156 @@
 	}
 	
 	div#elementos_lista{
-		position: relative;
 		left: 10px;
 	}
 
 	nav#menu li:hover{
 		background-color: #60606060;
+
 	}
 
 	nav#menu a{
 		text-decoration: none;
 		color: #565656;
 	}
+	nav#menu a:hover{
+		color: white;
+	}
+	/* Formatação do indice estático da página */
+	nav#indice{
+		display:block;
+
+	}
+	nav#indice ul{
+		position: fixed;
+		list-style: disc;
+		top: 100px;
+		left: 1150px;
+		
+	}
+	
+	nav#indice li:hover{
+		text-decoration: underline;
+	}
+	div#titulos-indice{
+		left: 10px;
+		
+	}
+	div#titulos-indice li{
+		text-indent: 0px;
+		text-align: left;
+		width: 100px;
+		font-size: 10pt;
+		margin: 2px;
+
+
+	}
+	div#titulos-indice a{
+		text-decoration: none;
+		color: #565656;
+	}
+	/* Corpo do Texto */
+	div#corpo_texto{
+		background-color: white;
+		width: 900px;
+		height: auto;
+		margin: 100px auto 0px auto;
+		box-shadow: 0px 0px 10px #dddd;
+	}
+	div#corpo_texto p{
+		text-indent: 50px;
+		text-align: justify;
+		white-space: normal;
+		margin: 10px 80px 10px 80px;
+		font-size: 12pt;
+		line-height: 25px;
+		font-family: "Times New Roman", sans-serif;
+	}
+	div#corpo_texto h1{
+		color: #454545;
+		text-align: center;
+		padding-top: 50px;
+		padding-bottom: -10px;
+	}
+	div#corpo_texto h2{
+		color: #4e4e4e;
+		font-size: 20pt;
+		text-align: center;
+		padding-top: 30px;
+	}
+	div#corpo_texto h3{
+		color: #585858;
+		font-size: 17pt;
+		margin-left: 100px;
+		text-align: left;
+		padding-top: 5px;
+	}
+	div#referencias p{
+		text-align: justify;
+		text-indent: 0px;
+		font-family: "Times New Roman", sans-serif;
+		font-size: 12pt;
+		line-height: 30px;
+		white-space: normal;
+	}
+	table#tabela_comparativa{
+		border: 1px solid black;
+		border-spacing: 0px;
+		margin-left: 80px;
+		margin-right: 80px;
+	}
+	table#tabela_comparativa td{
+		border: 1px solid black;
+		padding: 10px;
+		text-align: center;
+		vertical-align: middle;
+	}
+	div#figures img{
+		height: 308px;
+		width: 410px;
+	}
+	ul#figuras_lista li{
+		display: inline-block;
+	}
+	/* Tabela de proporção justa*/
+	table#proporcao_justa{
+		border: 1px solid black;
+		border-spacing: 0px;
+		margin-left: 230px;
+		margin-right: 225px;
+
+	}
+	table#proporcao_justa td{
+		border: 1px solid black;
+		padding: 4px;
+		text-align: center;
+		vertical-align: middle;
+	}
+	/* Tabela das respostas dos professores*/
+	table#professores{
+		border: 1px solid black;
+		border-spacing: 0px;
+		margin-left: 80px;
+		margin-right: 80px;
+	}
+	table#professores td{
+		border: 1px solid black;
+		padding: 4px;
+		text-align: center;
+		vertical-align: middle;
+	}
+	/* Gráfico dos plágios*/
+	figure#plagio img{
+		width: 60%;
+		height: 60%;
+		margin-left: 20%;
+	}
+	
+	/* Referências */
+	div#referencias a{
+		text-decoration: none;
+	}
+	div#referencias a:visited{
+		color: blue;
+	}
+
